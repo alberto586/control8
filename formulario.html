@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro de Destinos y Fechas de Viaje</title>
+</head>
+<body>
+    <h2>Registro de Destinos y Fechas de Viaje</h2>
+    <form action="procesar_formulario.php" method="POST">
+    <label for="nombreHotel">Nombre del Hotel:</label><br>
+    <input type="text" id="nombreHotel" name="nombreHotel" required><br><br>
+
+<label for="ciudad">Ciudad:</label><br>
+    <input type="text" id="ciudad" name="ciudad" required><br><br>
+
+<label for="pais">País:</label><br>
+    <input type="text" id="pais" name="pais" required><br><br>
+
+<label for="fechaViaje">Fecha de Viaje:</label><br>
+    <input type="date" id="fechaViaje" name="fechaViaje" required><br><br>
+
+<label for="duracionViaje">Duración del Viaje:</label><br>
+    <input type="text" id="duracionViaje" name="duracionViaje" required><br><br>
+
+<input type="submit" value="Registrar Viaje">
+    </form>
+</body>
+</html>
